@@ -41,7 +41,7 @@
 <link href="/blog/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="封装,继承,复制," />
 
 
 
@@ -57,16 +57,18 @@
 
 
 
-<meta name="description" content="这里可以是一个签名">
-<meta property="og:type" content="website">
-<meta property="og:title" content="infi000的博客">
-<meta property="og:url" content="https://infi000.github.io/blog/index.html">
+<meta name="description" content="1 封装1.1 构造函数1234567891011121314function Cat(name,color)&amp;#123;    this.name=name;    this.color=color;    this.say = function() &amp;#123;        console.log(this.name)    &amp;#125;&amp;#125;var cat1 = new Cat(&quot;大">
+<meta name="keywords" content="封装,继承,复制">
+<meta property="og:type" content="article">
+<meta property="og:title" content="封装，继承，复制">
+<meta property="og:url" content="https://infi000.github.io/blog/2018/02/02/index.html">
 <meta property="og:site_name" content="infi000的博客">
-<meta property="og:description" content="这里可以是一个签名">
+<meta property="og:description" content="1 封装1.1 构造函数1234567891011121314function Cat(name,color)&amp;#123;    this.name=name;    this.color=color;    this.say = function() &amp;#123;        console.log(this.name)    &amp;#125;&amp;#125;var cat1 = new Cat(&quot;大">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-02-02T09:00:56.539Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="infi000的博客">
-<meta name="twitter:description" content="这里可以是一个签名">
+<meta name="twitter:title" content="封装，继承，复制">
+<meta name="twitter:description" content="1 封装1.1 构造函数1234567891011121314function Cat(name,color)&amp;#123;    this.name=name;    this.color=color;    this.say = function() &amp;#123;        console.log(this.name)    &amp;#125;&amp;#125;var cat1 = new Cat(&quot;大">
 
 
 
@@ -84,7 +86,7 @@
   };
 </script>
 
-  <title> infi000的博客 </title>
+  <title> 封装，继承，复制 | infi000的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -105,9 +107,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -217,9 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -239,10 +239,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/blog/2018/02/02/" itemprop="url">
-                  封装，继承，复制
-                </a>
+                封装，继承，复制
               
             
           </h1>
@@ -290,9 +287,7 @@
       
 
       
-        
-          
-            <h2 id="1-封装"><a href="#1-封装" class="headerlink" title="1 封装"></a>1 封装</h2><h3 id="1-1-构造函数"><a href="#1-1-构造函数" class="headerlink" title="1.1 构造函数"></a>1.1 构造函数</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Cat</span>(<span class="params">name,color</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name=name;</span><br><span class="line">    <span class="keyword">this</span>.color=color;</span><br><span class="line">    <span class="keyword">this</span>.say = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="keyword">this</span>.name)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> cat1 = <span class="keyword">new</span> Cat(<span class="string">"大毛"</span>,<span class="string">"黄色"</span>);</span><br><span class="line"><span class="keyword">var</span> cat2 = <span class="keyword">new</span> Cat(<span class="string">"二毛"</span>,<span class="string">"黑色"</span>);</span><br><span class="line"></span><br><span class="line">alert(cat1.constructor == Cat); <span class="comment">//true</span></span><br><span class="line">alert(cat1 <span class="keyword">instanceof</span> Cat); <span class="comment">//true</span></span><br><span class="line">alert(cat2 <span class="keyword">instanceof</span> Cat); <span class="comment">//true</span></span><br></pre></td></tr></table></figure>
+        <h2 id="1-封装"><a href="#1-封装" class="headerlink" title="1 封装"></a>1 封装</h2><h3 id="1-1-构造函数"><a href="#1-1-构造函数" class="headerlink" title="1.1 构造函数"></a>1.1 构造函数</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Cat</span>(<span class="params">name,color</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name=name;</span><br><span class="line">    <span class="keyword">this</span>.color=color;</span><br><span class="line">    <span class="keyword">this</span>.say = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="keyword">this</span>.name)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> cat1 = <span class="keyword">new</span> Cat(<span class="string">"大毛"</span>,<span class="string">"黄色"</span>);</span><br><span class="line"><span class="keyword">var</span> cat2 = <span class="keyword">new</span> Cat(<span class="string">"二毛"</span>,<span class="string">"黑色"</span>);</span><br><span class="line"></span><br><span class="line">alert(cat1.constructor == Cat); <span class="comment">//true</span></span><br><span class="line">alert(cat1 <span class="keyword">instanceof</span> Cat); <span class="comment">//true</span></span><br><span class="line">alert(cat2 <span class="keyword">instanceof</span> Cat); <span class="comment">//true</span></span><br></pre></td></tr></table></figure>
 <p>构造函数进行封装的问题在于，如果在其内部定义某个函数，则他的每一个实例对象在生成的过程中都要创建一个函数，占用内存。</p>
 <h3 id="1-2-prototype模式"><a href="#1-2-prototype模式" class="headerlink" title="1.2 prototype模式"></a>1.2 prototype模式</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Cat</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">this</span>.name = name;</span><br><span class="line">    <span class="keyword">this</span>.color = color;</span><br><span class="line">&#125;;</span><br><span class="line">Cat.prototype.say = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123; alert(<span class="keyword">this</span>.name) &#125;;</span><br><span class="line">Cat.prototype.type=<span class="string">"animal"</span>;</span><br><span class="line"><span class="keyword">var</span> cat1 = <span class="keyword">new</span> Cat(<span class="string">"大毛"</span>, <span class="string">"黄色"</span>);　</span><br><span class="line"><span class="keyword">var</span> cat2 = <span class="keyword">new</span> Cat(<span class="string">"二毛"</span>, <span class="string">"黑色"</span>);</span><br><span class="line">　</span><br><span class="line">alert(cat1.say()); <span class="comment">//大毛</span></span><br><span class="line">alert(cat2.say()); <span class="comment">//二毛</span></span><br><span class="line"></span><br><span class="line">alert(Cat.prototype.isPrototypeOf(cat1)); <span class="comment">//true　　</span></span><br><span class="line">alert(Cat.prototype.isPrototypeOf(cat2)); <span class="comment">//true</span></span><br><span class="line">　　</span><br><span class="line">alert(cat1.hasOwnProperty(<span class="string">"name"</span>)); <span class="comment">// true　</span></span><br><span class="line">alert(cat1.hasOwnProperty(<span class="string">"type"</span>)); <span class="comment">// false</span></span><br><span class="line">　　</span><br><span class="line">alert(<span class="string">"name"</span> <span class="keyword">in</span> cat1); <span class="comment">// true　　</span></span><br><span class="line">alert(<span class="string">"type"</span> <span class="keyword">in</span> cat1); <span class="comment">// true</span></span><br></pre></td></tr></table></figure>
 <p>prototype是函数拥有的特殊属性，他是一个指针指向函数的原型对象，此函数的实例对象都可以访问原型对象上的属性和方法。</p>
@@ -327,439 +322,78 @@
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">deepCopy</span>(<span class="params">p,c</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> _c=c||&#123;&#125;;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">var</span> i <span class="keyword">in</span> p)&#123;</span><br><span class="line">        <span class="comment">//判断p[i]是否是对象</span></span><br><span class="line">        <span class="keyword">if</span>(<span class="keyword">typeof</span> p[i]==<span class="string">'object'</span>)&#123;</span><br><span class="line">            <span class="comment">//判断是否是数组，做出相应的初始化</span></span><br><span class="line">            _c[i]=(p[i].constructor==<span class="built_in">Array</span>)?[]:&#123;&#125;;</span><br><span class="line">            deepCopy(p[i],_c[i]);</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="comment">//不是。直接复制</span></span><br><span class="line">            _c[i]=p[i];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> _c;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> Doctor = deepCopy(Chinese);</span><br><span class="line"></span><br><span class="line">Chinese.birthPlaces = [<span class="string">'北京'</span>,<span class="string">'上海'</span>,<span class="string">'香港'</span>];</span><br><span class="line"></span><br><span class="line">Doctor.birthPlaces.push(<span class="string">'厦门'</span>);</span><br><span class="line"></span><br><span class="line">alert(Doctor.birthPlaces); <span class="comment">//北京, 上海, 香港, 厦门</span></span><br><span class="line"></span><br><span class="line">alert(Chinese.birthPlaces); <span class="comment">//北京, 上海, 香港</span></span><br></pre></td></tr></table></figure>
 <p>目前，jQuery库使用的就是这种继承方法。</p>
 
-          
-        
       
     </div>
 
     <div>
       
+        
+      
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/2018/01/25/" itemprop="url">
-                  md的常用语法
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2018-01-25T12:02:10+08:00" content="2018-01-25">
-              2018-01-25
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/blog/tags/封装/" rel="tag">#封装</a>
           
-            
+            <a href="/blog/tags/继承/" rel="tag">#继承</a>
           
-
+            <a href="/blog/tags/复制/" rel="tag">#复制</a>
           
-
-          
-          
-             <span id="/blog/2018/01/25/" class="leancloud_visitors" data-flag-title="md的常用语法">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h1 id="大标题"><a href="#大标题" class="headerlink" title="大标题"></a>大标题</h1><h2 id="小标题"><a href="#小标题" class="headerlink" title="小标题"></a>小标题</h2><p>#这是标题</p>
-<p>##这是小标题 </p>
-<ol>
-<li>这是有序雷柏啊</li>
-<li>这是有序列表</li>
-</ol>
-<ul>
-<li>个人编程，写一个命令行程序<ul>
-<li>注册Github账号，建立项目仓库<ul>
-<li>添加ReadMe.md并编辑，描述项目的简要介绍、功能、用例、下载、文档等</li>
-<li>建立doc目录存放文档</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><a href="http://www.baidu.com" target="_blank" rel="noopener">这是个链接</a></p>
-<p>这是个目录<a href="SDF">1</a><a href="32">2</a></p>
-<blockquote>
-<p>功利主义是一种在西方影响巨大的伦理学说，其原则是“最大多数人的最大幸福”，以行为的实际功效或利益为判断行为正当与否的标准。本书系统地阐述了这一学说，分绪论、何谓功利主义、论功利主义最后制裁力、功利主义可以得到什么样的证明、论公道与功利主义之关系。</p>
-</blockquote>
-<p>– 引用自《<a href="https://book.douban.com/subject/3072490/" target="_blank" rel="noopener">功利主义</a>》</p>
-<p>写一段代码</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">大标题</span><br><span class="line">==</span><br><span class="line"></span><br><span class="line">小标题</span><br><span class="line">--</span><br><span class="line"></span><br><span class="line"><span class="comment">#这是标题</span></span><br><span class="line"><span class="comment">##这是小标题 </span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">1. 这是有序雷柏啊</span><br><span class="line">2. 这是有序列表</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- 个人编程，写一个命令行程序</span><br><span class="line">    - 注册Github账号，建立项目仓库</span><br><span class="line">        - 添加ReadMe.md并编辑，描述项目的简要介绍、功能、用例、下载、文档等</span><br><span class="line">        - 建立doc目录存放文档</span><br><span class="line"></span><br><span class="line">[这是个链接](http://www.baidu.com)</span><br><span class="line"></span><br><span class="line">这是个目录[1](SDF)[2](32)</span><br><span class="line"></span><br><span class="line">写一段代码</span><br><span class="line"></span><br><span class="line">var a=1,b=2;</span><br><span class="line"><span class="keyword">function</span> foo(a,b)&#123;</span><br><span class="line">       <span class="built_in">return</span> a+b;</span><br><span class="line">&#125;</span><br><span class="line"> foo()</span><br><span class="line">/**</span><br><span class="line">*随便写点注释</span><br><span class="line">**/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&gt;功利主义是一种在西方影响巨大的伦理学说，其原则是“最大多</span><br><span class="line"></span><br><span class="line">-- 引用自《[功利主义](https://book.douban.com/subject/3072490/)》</span><br></pre></td></tr></table></figure>
-<p><img src="https://img3.doubanio.com/lpic/s4669554.jpg" alt=""></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/blog/2018/01/25/" rel="next" title="md的常用语法">
+                <i class="fa fa-chevron-left"></i> md的常用语法
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/blog/2018/01/25/" itemprop="url">
-                  解决微信视频强制全屏播放
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2018-01-25T11:25:36+08:00" content="2018-01-25">
-              2018-01-25
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-             <span id="/blog/2018/01/25/" class="leancloud_visitors" data-flag-title="解决微信视频强制全屏播放">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>微信浏览器VIDEO标签在播放视频的时候，会强制的全屏播放，有如下办法可以解决：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;video  src=<span class="string">""</span>  controls=<span class="string">""</span> x5-playsinline=<span class="string">""</span> playsinline=<span class="string">""</span> webkit-playsinline=<span class="string">""</span> poster=<span class="string">""</span> preload=<span class="string">"auto"</span>&gt;&lt;/video&gt;</span><br></pre></td></tr></table></figure>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
+
+    <div class="post-spread">
       
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
 
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/blog/2018/01/19/" itemprop="url">
-                  我的第一个博客
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2018-01-19T14:40:46+08:00" content="2018-01-19">
-              2018-01-19
-            </time>
-          </span>
-
-          
-
-          
-            
-          
-
-          
-
-          
-          
-             <span id="/blog/2018/01/19/" class="leancloud_visitors" data-flag-title="我的第一个博客">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
-<h1 id="Welcome-to-Marxico"><a href="#Welcome-to-Marxico" class="headerlink" title="Welcome to Marxico"></a>Welcome to Marxico</h1><p>@(Sample notebook)[Marxico|Manual|Markdown]</p>
-<p><strong>Marxico</strong> is a delicate Markdown editor for Evernote. With reliable storage and sync powered by Evernote, <strong>Marxico</strong> offers greate writing experience. </p>
-<ul>
-<li><strong>Versatile</strong> - supporting code highlight, <em>LaTeX</em> &amp; flow charts,  inserting images &amp; attachments by all means.</li>
-<li><strong>Exquisite</strong> -  neat but powerful editor, featuring offline docs, live preview, and offering the <a href="http://marxi.co/client_en" target="_blank" rel="noopener">desktop client</a> and offline <a href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop" target="_blank" rel="noopener">Chrome App</a>.</li>
-<li><strong>Sophisticated</strong> - deeply integrated with Evernote, supporting notebook &amp; tags, two-way bind editing.   </li>
-</ul>
-<hr>
-<p>[TOC]</p>
-<h2 id="Introducing-Markdown"><a href="#Introducing-Markdown" class="headerlink" title="Introducing Markdown"></a>Introducing Markdown</h2><blockquote>
-<p>Markdown is a plain text formatting syntax designed to be converted to HTML. Markdown is popularly used as format for readme files, … or in text editors for the quick creation of rich text documents.  - <a href="http://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">Wikipedia</a></p>
-</blockquote>
-<p>As showed in this manual, it uses hash(#) to identify headings, emphasizes some text to be <strong>bold</strong> or <em>italic</em>. You can insert a <a href="http://www.example.com" target="_blank" rel="noopener">link</a> , or a footnote[^demo]. Serveral advanced syntax are listed below, please press <code>Ctrl + /</code> to view Markdown cheatsheet.</p>
-<h3 id="Code-block"><a href="#Code-block" class="headerlink" title="Code block"></a>Code block</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span><span class="params">(param1=<span class="string">''</span>, param2=<span class="number">0</span>)</span>:</span></span><br><span class="line">    <span class="string">'''A docstring'''</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="keyword">print</span> <span class="string">'Greater'</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="keyword">None</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt'''</span></span><br></pre></td></tr></table></figure>
-<h3 id="LaTeX-expression"><a href="#LaTeX-expression" class="headerlink" title="LaTeX expression"></a>LaTeX expression</h3><p>$$  x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
-<h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><table>
-<thead>
-<tr>
-<th style="text-align:left">Item</th>
-<th style="text-align:right">Value</th>
-<th style="text-align:center">Qty</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Computer</td>
-<td style="text-align:right">1600 USD</td>
-<td style="text-align:center">5</td>
-</tr>
-<tr>
-<td style="text-align:left">Phone</td>
-<td style="text-align:right">12 USD</td>
-<td style="text-align:center">12</td>
-</tr>
-<tr>
-<td style="text-align:left">Pipe</td>
-<td style="text-align:right">1 USD</td>
-<td style="text-align:center">234</td>
-</tr>
-</tbody>
-</table>
-<h3 id="Diagrams"><a href="#Diagrams" class="headerlink" title="Diagrams"></a>Diagrams</h3><h4 id="Flow-charts"><a href="#Flow-charts" class="headerlink" title="Flow charts"></a>Flow charts</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">e=&gt;end</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
-<h4 id="Sequence-diagrams"><a href="#Sequence-diagrams" class="headerlink" title="Sequence diagrams"></a>Sequence diagrams</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p><strong>Note:</strong> You can find more information:</p>
-<ul>
-<li>about <strong>Sequence diagrams</strong> syntax <a href="http://bramp.github.io/js-sequence-diagrams/" target="_blank" rel="noopener">here</a>,</li>
-<li>about <strong>Flow charts</strong> syntax <a href="http://adrai.github.io/flowchart.js/" target="_blank" rel="noopener">here</a>.</li>
-</ul>
-</blockquote>
-<h3 id="Checkbox"><a href="#Checkbox" class="headerlink" title="Checkbox"></a>Checkbox</h3><p>You can use <code>- [ ]</code> and <code>- [x]</code> to create checkboxes, for example:</p>
-<ul>
-<li style="list-style: none"><input type="checkbox" checked> Item1</li>
-<li style="list-style: none"><input type="checkbox"> Item2</li>
-<li style="list-style: none"><input type="checkbox"> Item3</li>
-</ul>
-<blockquote>
-<p><strong>Note:</strong> Currently it is only partially supported. You can’t toggle checkboxes in Evernote. You can only modify the Markdown in Marxico to do that. Next version will fix this.  </p>
-</blockquote>
-<h3 id="Dancing-with-Evernote"><a href="#Dancing-with-Evernote" class="headerlink" title="Dancing with Evernote"></a>Dancing with Evernote</h3><h4 id="Notebook-amp-Tags"><a href="#Notebook-amp-Tags" class="headerlink" title="Notebook &amp; Tags"></a>Notebook &amp; Tags</h4><p><strong>Marxico</strong> add <code>@(Notebook)[tag1|tag2|tag3]</code> syntax to select notebook and set tags for the note. After typing <code>@(</code>, the notebook list would appear, please select one from it.  </p>
-<h4 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h4><p><strong>Marxico</strong> would adopt the first heading encountered as the note title. For example, in this manual the first line <code>Welcome to Marxico</code> is the title.</p>
-<h4 id="Quick-Editing"><a href="#Quick-Editing" class="headerlink" title="Quick Editing"></a>Quick Editing</h4><p>Note saved by <strong>Marxico</strong> in Evernote would have a red ribbon button on the top-right corner. Click it and it would bring you back to <strong>Marxico</strong> to edit the note. </p>
-<blockquote>
-<p><strong>Note:</strong> Currently <strong>Marxico</strong> is unable to detect and merge any modifications in Evernote by user. Please go back to <strong>Marxico</strong> to edit.</p>
-</blockquote>
-<h4 id="Data-Synchronization"><a href="#Data-Synchronization" class="headerlink" title="Data Synchronization"></a>Data Synchronization</h4><p>While saving rich HTML content in Evernote, <strong>Marxico</strong> puts the Markdown text in a hidden area of the note, which makes it possible to get the original text in <strong>Marxico</strong> and edit it again. This is a really brilliant design because:</p>
-<ul>
-<li>it is beyond just one-way exporting HTML which other services do;</li>
-<li>and it avoids privacy and security problems caused by storing content in a intermediate server. </li>
-</ul>
-<blockquote>
-<p><strong>Privacy Statement: All of your notes data are saved in Evernote. Marxico doesn’t save any of them.</strong> </p>
-</blockquote>
-<h4 id="Offline-Storage"><a href="#Offline-Storage" class="headerlink" title="Offline Storage"></a>Offline Storage</h4><p><strong>Marxico</strong> stores your unsynchronized content locally in browser storage, so no worries about network and broswer crash. It also keeps the recent file list you’ve edited in <code>Document Management(Ctrl + O)</code>.</p>
-<blockquote>
-<p><strong>Note:</strong> Although browser storage is reliable in the most time, Evernote is born to do that. So please sync the document regularly while writing.</p>
-</blockquote>
-<h2 id="Shortcuts"><a href="#Shortcuts" class="headerlink" title="Shortcuts"></a>Shortcuts</h2><p>Help    <code>Ctrl + /</code><br>Sync Doc    <code>Ctrl + S</code><br>Create Doc    <code>Ctrl + Alt + N</code><br>Maximize Editor    <code>Ctrl + Enter</code><br>Preview Doc <code>Ctrl + Alt + Enter</code><br>Doc Management    <code>Ctrl + O</code><br>Menu    <code>Ctrl + M</code></p>
-<p>Bold    <code>Ctrl + B</code><br>Insert Image    <code>Ctrl + G</code><br>Insert Link    <code>Ctrl + L</code><br>Convert Heading    <code>Ctrl + H</code></p>
-<h2 id="About-Pro"><a href="#About-Pro" class="headerlink" title="About Pro"></a>About Pro</h2><p><strong>Marixo</strong> offers a free trial of 10 days. After that, you need to <a href="http://marxi.co/purchase.html" target="_blank" rel="noopener">purchase</a> the Pro service. Otherwise, you would not be able to sync new notes. Previous notes can be edited and synced all the time.</p>
-<h2 id="Credits"><a href="#Credits" class="headerlink" title="Credits"></a>Credits</h2><p><strong>Marxico</strong> was first built upon <a href="http://dillinger.io" target="_blank" rel="noopener">Dillinger</a>, and the newest version is almost based on the awesome <a href="http://stackedit.io" target="_blank" rel="noopener">StackEdit</a>. Acknowledgments to them and other incredible open source projects!</p>
-<h2 id="Feedback-amp-Bug-Report"><a href="#Feedback-amp-Bug-Report" class="headerlink" title="Feedback &amp; Bug Report"></a>Feedback &amp; Bug Report</h2><ul>
-<li>Twitter: <a href="https://twitter.com/gock2" target="_blank" rel="noopener">@gock2</a></li>
-<li>Email: <a href="&#109;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#x68;&#117;&#x73;&#x74;&#103;&#111;&#x63;&#x6b;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#x68;&#117;&#x73;&#x74;&#103;&#111;&#x63;&#x6b;&#x40;&#103;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></li>
-</ul>
-<hr>
-<p>Thank you for reading this manual. Now please press <code>Ctrl + M</code> and click <code>Link with Evernote</code>. Enjoy your <strong>Marxico</strong> journey!</p>
-<p>[^demo]: This is a demo footnote. Read the <a href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes" target="_blank" rel="noopener">MultiMarkdown Syntax Guide</a> to learn more. Note that Evernote disables ID attributes in its notes , so <code>footnote</code> and <code>TOC</code> are not actually working. </p>
-
-          
-        
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
@@ -767,6 +401,27 @@
 
 
           
+  <div class="comments" id="comments">
+
+<div id="lv-container" data-id="city" data-uid="MTAyMC8zMzI3OC85ODM1">
+  <script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+  </script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+
+  </div>
+
 
 
 
@@ -788,8 +443,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/blog/images/head.jpg"
@@ -834,6 +498,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-封装"><span class="nav-number">1.</span> <span class="nav-text">1 封装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-构造函数"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 构造函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-prototype模式"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 prototype模式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-函数的继承-构造函数"><span class="nav-number">2.</span> <span class="nav-text">2 函数的继承(构造函数)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-使用CALL-APPLY"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 使用CALL,APPLY</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-使用prototype"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 使用prototype</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-直接继承prototype"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 直接继承prototype</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-4-利用空对象作为中介"><span class="nav-number">2.4.</span> <span class="nav-text">2.4 利用空对象作为中介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-5-拷贝继承"><span class="nav-number">2.5.</span> <span class="nav-text">2.5 拷贝继承</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-非构造函数的继承"><span class="nav-number">3.</span> <span class="nav-text">3 非构造函数的继承</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-object方法"><span class="nav-number">3.1.</span> <span class="nav-text">3.1 object方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-浅拷贝"><span class="nav-number">3.2.</span> <span class="nav-text">3.2 浅拷贝</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-3深拷贝"><span class="nav-number">3.3.</span> <span class="nav-text">3.3深拷贝</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -925,6 +600,10 @@
 
 
   
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=0.5.0"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=0.5.0"></script>
+
+
 
   
 
